@@ -1,27 +1,25 @@
 # MoneyTrace
 
-Кроссплатформенный Flutter-стартер для приложения учета финансов с заделом под AI-советника.
+MoneyTrace is a modern mobile app for personal finance tracking.
 
-## Что уже готово
+It helps users understand their money in a simple and visual way: track income and expenses, manage accounts, review spending categories, follow recurring payments, and get smart finance insights in one clean app.
 
-- инициализирован Flutter-проект для `android`, `ios`, `web`, `windows`, `macos`, `linux`
-- собран базовый app shell с навигацией
-- добавлены доменные модели для счетов, операций, категорий и советов
-- подготовлен `MoneyTraceRepository`, который позже можно заменить на локальную БД
-- добавлен demo-репозиторий и rule-based советник как переходный слой перед настоящим AI
-- сделаны стартовые экраны: обзор, операции, счета, AI-советник
 
-## Текущая структура
+![MoneyTrace poster](poster1.png)
 
-```text
-lib/
-  core/        # bootstrap, router, theme, shared widgets
-  data/        # demo data и реализации repository/services
-  features/    # finance, overview, transactions, accounts, ai_coach
-  ui/          # общий shell приложения
-  utils/       # форматтеры
-```
+## Main Features
 
-## Следующий шаг
-
-Когда будет готов макет главного экрана, можно переносить текущую логику и данные в нужный UI, не ломая архитектуру.
+- Mobile-first finance dashboard
+- Account balance overview
+- Multi-account mode
+- Income and expense tracking
+- Fast transaction creation
+- Transfers between accounts
+- Category-based spending tracking
+- Recurring payment templates
+- Recent activity timeline
+- Monthly analytics
+- Personal onboarding flow
+- Theme customization
+- AI finance coach screen
+- Smart finance insight cards
