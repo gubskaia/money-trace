@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "MoneyTrace (Windows)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "windows",
+      "program": "lib/main.dart",
+      "preLaunchTask": "MoneyTrace: bootstrap windows"
+    }
+  ]
+}
